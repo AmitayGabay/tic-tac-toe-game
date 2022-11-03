@@ -1,0 +1,103 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player {
+    text-align: center;
+    height: 700px;
+    width: 400px;
+}
+
+.player1 {
+    color: green;
+}
+
+.fa-times {
+    font-size: 200px;
+    color: green;
+}
+
+.player2 {
+    color: blue;
+}
+
+.fa-circle-o {
+    font-size: 180px;
+    color: blue;
+}
+
+.line {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 2px;
+    font-size: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#square1 {
+    border-top: none;
+    border-left: none;
+}
+
+#square2 {
+    border-top: none;
+}
+
+#square3 {
+    border-top: none;
+    border-right: none;
+}
+
+#square4 {
+    border-left: none;
+}
+
+#square6 {
+    border-right: none;
+}
+
+#square7 {
+    border-bottom: none;
+    border-left: none;
+}
+
+#square8 {
+    border-bottom: none;
+}
+
+#square9 {
+    border-bottom: none;
+    border-right: none;
+}
+
+.btn {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: none;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.message {
+    font-size: 42px;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+}
